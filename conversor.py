@@ -1,27 +1,27 @@
-def conversor(tipo_pesos, valor_dolar):
-    pesos = input("¿Cuántos pesos " + tipo_pesos + " tienes?: ")
+def conversor(type, dolar_value):
+    pesos = input("How many " + type + " pesos do you have?: ")
     pesos = float(pesos)
-    dolares = pesos / valor_dolar
+    dolares = pesos / dolar_value
     dolares = round(dolares, 2)
     dolares = str(dolares)
-    print("Tienes $" + dolares + " dólares")
+    print("You have $" + dolares + " dollars")
 
 menu = """
-Bienvenido al conversor de monedas 💰
+Welcome to the LATAM pesos converter 💰
 
-1 - Pesos colombianos
-2 - Pesos argentinos
-3 - Pesos mexicanos
+1 - Colombian pesos
+2 - Argentinian pesos
+3 - Mexican pesos
 
-Elige una opción: """
+Choose an option: """
 
-opcion = input(menu)
+option = input(menu)
 
-if opcion == '1':
-    conversor("colombianos", 387)
-elif opcion == '2':
-    conversor("argentinos", 65)
-elif opcion == '3':
-    conversor("mexicanos", 24)
+if option == '1':
+    conversor("colombian", 387)
+elif option == '2':
+    conversor("argentinian", 65)
+elif option == '3':
+    conversor("mexican", 24)
 else:
-    print("Ingresa una opción correcta, por favor")
+    print("Choose a valid option, please")

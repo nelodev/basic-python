@@ -1,17 +1,17 @@
-nombre = 'Manuel'
+name = 'Manuel'
 
-print(nombre[0:3]) #'Man'
+print(name[0:3]) #'Man'
 
-print(nombre[:3]) #'Man'
+print(name[:3]) #'Man'
 
-print(nombre[3:]) #'uel'
+print(name[3:]) #'uel'
 
-print(nombre[1:4]) #'anu'
+print(name[1:4]) #'anu'
 
-print(nombre[1:7:2]) #'aul'
+print(name[1:7:2]) #'aul'
 
-print(nombre[::]) #'Manuel'
+print(name[::]) #'Manuel'
 
-print(nombre[1::3]) #'ae'
+print(name[1::3]) #'ae'
 
-print(nombre[::-1]) #'leunaM
+print(name[::-1]) #'leunaM
