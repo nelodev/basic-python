@@ -1,62 +1,62 @@
-# contador = 0
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 0
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
-# contador = 1
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 1
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
-# contador = 2
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 2
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
-# contador = 3
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 3
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
-# contador = 4
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 4
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
-# contador = 5
-# print("2 elevado a " + str(contador) + " es igual a: " + str(2**contador))
+# counter = 5
+# print("2 raised to " + str(counter) + " is equal to: " + str(2**counter))
 
 # WHILE LOOP
 def runWhile():
-    LIMITE = 1000
-    contador = 0
-    potencia_2 = 2**contador
-    while potencia_2 < LIMITE:
-        print("2 elevado a " + str(contador) + " es igual a: " + str(potencia_2))
-        contador = contador+1
-        potencia_2 = 2**contador
+    LIMIT = 1000
+    counter = 0
+    raised_to_2 = 2**counter
+    while raised_to_2 < LIMIT:
+        print("2 raised to " + str(counter) + " is equal to: " + str(raised_to_2))
+        counter = counter+1
+        raised_to_2 = 2**counter
 
 # FOR LOOP
 def runFor():
-    # for contador in range(2, 10):
-    #     print(contador)
+    # for counter in range(2, 10):
+    #     print(counter)
 
     # for i in range(10):
     #     print(11*i)
 
-    # nombre = input("Escribe tu nombre: ")
-    # for letra in nombre:
-    #     print(letra)
+    # name = input("Write your name: ")
+    # for letter in name:
+    #     print(letter)
 
-    # frase = input("Escribe una frase: ")
-    # for caracter in frase:
-    #     print(caracter.upper())
+    # phrase = input("Write a phrase: ")
+    # for character in phrase:
+    #     print(character.upper())
 
-    # for contador in range(1000):
-    #     if contador % 2 != 0:
+    # for counter in range(1000):
+    #     if counter % 2 != 0:
     #         continue
-    #     print(contador)
+    #     print(counter)
     
     # for i in range(10000):
     #     print(i)
     #     if i == 5678:
     #         break;
 
-    texto = input("Escribe una frase: ")
-    for letra in texto:
-        if letra == 'o':
+    text = input("Write a phrase: ")
+    for letter in text:
+        if letter == 'o':
             break
-        print(letra)
+        print(letter)
 
 
 if __name__ == "__main__":
